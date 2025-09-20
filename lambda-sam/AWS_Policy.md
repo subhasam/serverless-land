@@ -1,5 +1,7 @@
 ## Suggested AWS Policy for running AWS SAM
-If you're running it on pesonal account for R & D purpose, you may choose flexibility in the policies to make the code run first and then make have a more fine grain policy following the Principles of Least Privilege. Here is a one for a `Playground` environment. *Note* : You still might need to tweak it if it complains about access while running the code.
+If you're running it on pesonal account for R & D purpose, you may choose flexibility in the policies to make the code run first and then make have a more fine grain policy following the Principles of Least Privilege. Here is a one for a `Playground` environment. If you're new to AWS IAM, start with creating user and policy on the console. Here is (AWS IAM Documentation)[https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create-console.html] to help.
+
+*Note* : You still might need to tweak the below policy if it complains about access or oermission to resources while running the code.
 
 ```json
 {
