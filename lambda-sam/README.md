@@ -10,7 +10,7 @@ This project demonstrates how to build, deploy, and test a "Hello World" Lambda 
 Ensure the following software is installed:
 1. **AWS CLI**: [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 2. **AWS SAM CLI**: [Install SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html)
-3. **Python 3.13+**: [Install Python](https://www.python.org/downloads/)
+3. **Python 3.13+**: [Install Python](https://www.python.org/downloads/) (AWS is suggesting on EOL of Python 3.9)
 4. **Docker**: [Install Docker](https://www.docker.com/get-started)
 ---
 #### Using Homebrew for installation
