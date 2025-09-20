@@ -1,4 +1,4 @@
-# Building Lambda Function with AWS SAM(Serverless Application Model)
+# Building Lambda Function with AWS SAM(Serverless Access Model)
 This project demonstrates how to build, deploy, and test a "Hello World" Lambda function using the AWS Serverless Application Model (SAM). It is designed to be simple yet professional, making it accessible to college students and experienced professionals alike.
 ## Features
 - **Serverless Architecture**: Built using AWS Lambda and SAM.
@@ -23,7 +23,6 @@ Post installation, verify the installed version:
 sam --version
 ```
 
-
 ## Project Structure
 ```
 your-app/
@@ -41,8 +40,14 @@ your-app/
 ```
 
 ---
-## Step-by-Step Instructions
+## AWS Policy for Lambda
+Here is a [sample IAM policy](/lambda-sam/AWS_Policy.md) for your AWS `Playground` that is a pre-requisite before you run the function from your local workstation.
+
+---
+## Getting started 🚀
 ### 1. Clone the Repository
+If you're getting started on you local, without a remote repo, you can ignore this step.
+
 ```bash
 git clone https://github.com/your-repo/hello-world-lambda-sam.git
 cd hello-world-lambda-sam
@@ -59,7 +64,7 @@ sam build
 ### Suggested Command after successful build
 ```bash
 subha_sam@Mac lambda-sam % sam build
-Building codeuri: /Users/subha_sam/dev_playground/serverless-land/lambda-sam/src runtime: python3.13.7 architecture: x86_64 functions: HelloWorldFunction           
+Building codeuri: /Users/subha_sam/dev_playground/serverless-land/lambda-sam/src runtime: python3.9 architecture: x86_64 functions: HelloWorldFunction           
  Running PythonPipBuilder:ResolveDependencies                                                                                                                    
  Running PythonPipBuilder:CopySource                                                                                                                             
 
@@ -94,7 +99,7 @@ cd tests
 pytest
 ```
 
-## Troubleshooting
+## Some Troubleshooting Tips
 Problem: Error: AWS Region was not found.
 Cause:
 The AWS CLI is not configured with a default region.
