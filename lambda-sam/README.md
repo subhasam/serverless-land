@@ -59,7 +59,7 @@ sam build
 ### Suggested Command after successful build
 ```bash
 subha_sam@Mac lambda-sam % sam build
-Building codeuri: /Users/subha_sam/dev_playground/serverless-land/lambda-sam/src runtime: python3.9 architecture: x86_64 functions: HelloWorldFunction           
+Building codeuri: /Users/subha_sam/dev_playground/serverless-land/lambda-sam/src runtime: python3.13.7 architecture: x86_64 functions: HelloWorldFunction           
  Running PythonPipBuilder:ResolveDependencies                                                                                                                    
  Running PythonPipBuilder:CopySource                                                                                                                             
 
