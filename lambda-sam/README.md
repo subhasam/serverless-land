@@ -92,6 +92,20 @@ Invoke the function locally:
 sam local invoke HelloWorldFunction
 ```
 ---
+### Lambda Function Output on your Local terminal
+```bash
+lambda-sam % sam local invoke HelloWorldFunction
+Invoking app.lambda_handler (python3.13)                                                                                                        Local image was not found.                                                                                                                                       
+Removing rapid images for repo public.ecr.aws/sam/emulation-python3.13                                                                                           
+Building image...............................................................................................................................................................................
+Using local image: public.ecr.aws/lambda/python:3.13-rapid-x86_64.                                                                                               
+Mounting /Users/subha_sam/dev_playground/serverless-land/lambda-sam/.aws-sam/build/HelloWorldFunction as /var/task:ro,delegated, inside runtime container        
+START RequestId: a122f5ea-102a-454a-ab1f-80647de8c87c Version: $LATEST
+END RequestId: acece483-53da-4e77-817e-ed83b89e2c46
+REPORT RequestId: acece483-53da-4e77-817e-ed83b89e2c46  Init Duration: 0.34 ms  Duration: 241.62 ms     Billed Duration: 242 ms Memory Size: 128 MB     Max Memory Used: 128 MB
+{"statusCode": 200, "body": "{\"message\": \"Hello!! We offer supports for all Digital Wallets and Payment Methods.\", \"input\": {}}"}
+```
+---
 ## Testing
 Run unit tests:
 ```bash
