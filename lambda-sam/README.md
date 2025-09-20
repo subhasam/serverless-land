@@ -1,4 +1,4 @@
-# Building Lambda Function with AWS SAM(Serverless Application Module)
+# Building Lambda Function with AWS SAM(Serverless Application Model)
 This project demonstrates how to build, deploy, and test a "Hello World" Lambda function using the AWS Serverless Application Model (SAM). It is designed to be simple yet professional, making it accessible to college students and experienced professionals alike.
 ## Features
 - **Serverless Architecture**: Built using AWS Lambda and SAM.
