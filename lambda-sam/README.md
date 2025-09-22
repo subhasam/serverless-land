@@ -1,3 +1,4 @@
+**Author** : [Subhasis Samal](https://www.linkedin.com/in/subhasis-samal)
 # Building Lambda Function with AWS SAM(Serverless Access Model)
 This project demonstrates how to build, deploy, and test a "Hello World" Lambda function using the AWS Serverless Application Model (SAM). It is designed to be simple yet professional, making it accessible to college students and experienced professionals alike.
 
