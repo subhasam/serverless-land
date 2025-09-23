@@ -2,7 +2,7 @@
 
 [function_build_definitions.72259db1-7885-4197-8eca-ebeb3ec3a637]
 codeuri = "/Users/subha_sam/dev_playground/serverless-land/lambda-sam/src"
-runtime = "python3.9"
+runtime = "python3.13"
 architecture = "x86_64"
 handler = "app.lambda_handler"
 manifest_hash = ""
